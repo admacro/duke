@@ -1,15 +1,13 @@
-package com.jamesni.interview;import java.util.ArrayList;
+package com.jamesni.interview;
+
+import java.util.ArrayList;
 import java.util.List;
 
-// IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
-// SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
-// DEFINE ANY CLASS AND METHOD NEEDED
-// CLASS BEGINS, THIS CLASS IS REQUIRED
 public class CommonManagerFinder {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
     // RETURN "null" IF THERE IS NO CLOSEST COMMON MANAGER OR THE GIVEN EMPLOYEES ARE NOT THE PART OF THE COMPANY
+
     public Employee closestCommonManager(Employee ceo, Employee employee1, Employee employee2) {
-        // WRITE YOUR CODE HERE
         List<Employee> e1Path = new ArrayList<>();
         List<Employee> e2Path = new ArrayList<>();
         findPath(ceo, employee1, e1Path);
@@ -39,5 +37,4 @@ public class CommonManagerFinder {
         }
     }
 
-    // METHOD SIGNATURE ENDS
 }
