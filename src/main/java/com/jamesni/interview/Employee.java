@@ -2,9 +2,6 @@ package com.jamesni.interview;
 
 import java.util.ArrayList;
 
-/**
- * Created by james on 10/19/16.
- */
 public class Employee {
     private int id;
     private String name;
@@ -25,5 +22,13 @@ public class Employee {
 
     public ArrayList<Employee> getReports() {
         return reports;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
