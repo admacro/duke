@@ -1,4 +1,4 @@
-package com.jamesni.interview.amazon;
+package xyz.admacro.interview.amazon;
 
 import java.util.ArrayList;
 import java.util.List;
