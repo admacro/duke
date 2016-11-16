@@ -78,7 +78,21 @@ public class CommonManagerFinder {
         return false;
     }
 
-
+    /**
+     * Employee structure is like below.
+     *                 Eric
+     *         --------------------
+     *        /           |        \
+     *     David       Dragon     Steve
+     *    -------     --------    ------
+     *    /    \       /    \        \
+     *  Mike  Jack  James  Robin    Cathy
+     *  ----  ----  -----  -----
+     *   |                    \
+     *  John                Helen
+     *
+     * @return
+     */
     public static Employee getCEO() {
         int i = 0;
         Employee ceo = new Employee(0, "Eric");
