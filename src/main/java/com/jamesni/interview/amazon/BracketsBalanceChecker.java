@@ -1,4 +1,4 @@
-package com.jamesni.interview;
+package com.jamesni.interview.amazon;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
