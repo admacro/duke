@@ -45,11 +45,11 @@ public class CommonManagerFinder {
         System.out.println(e2Path);
 
         for (int i = 0; i < e1Path.size(); i++) {
-            Employee eM = e1Path.get(i);
+            Employee e1 = e1Path.get(i);
             for (int j = 0; j < e2Path.size(); j++) {
-                Employee eM2 = e2Path.get(j);
-                if (eM.getId() == eM2.getId()) {
-                    return eM;
+                Employee e2 = e2Path.get(j);
+                if (e1.getId() == e2.getId()) {
+                    return e1;
                 }
             }
 
