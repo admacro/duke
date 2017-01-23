@@ -1,7 +1,5 @@
 package xyz.admacro.interview.codility;
 
-import java.util.Arrays;
-
 class ArrayRotation {
 
     public int[] solution(int[] a, int times) {
