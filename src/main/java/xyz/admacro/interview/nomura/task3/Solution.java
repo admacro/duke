@@ -26,7 +26,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.solution("")); // 28 7
+        System.out.println(s.solution("")); // 0
         System.out.println(s.solution("011100")); // 28 7
         System.out.println(s.solution("100011")); // 35 8
         System.out.println(s.solution("11010101")); // 213 12

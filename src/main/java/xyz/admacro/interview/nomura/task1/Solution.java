@@ -1,7 +1,5 @@
 package xyz.admacro.interview.nomura.task1;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Iterator;
 import java.util.Stack;
 
