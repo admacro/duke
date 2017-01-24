@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.timecomplexity;
 
 /**
  * A small frog wants to get to the other side of the road. The frog is currently located at

@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.countingelements;
 
 /**
  * You are given N counters, initially set to 0, and you have two possible operations on them:
@@ -83,7 +83,7 @@ public class MaxCounters {
 
     public static void main(String[] args) {
         MaxCounters maxCounters = new MaxCounters();
-        int[] r = maxCounters.solution(5, new int[]{3,4,4,6,1,4,4});
+        int[] r = maxCounters.solution(5, new int[]{3, 4, 4, 6, 1, 4, 4});
         for (int i : r) {
             System.out.print(i + " ");
         }

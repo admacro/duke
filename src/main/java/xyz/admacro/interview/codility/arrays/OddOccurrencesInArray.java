@@ -1,10 +1,10 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.arrays;
 
 
 import java.util.HashSet;
 import java.util.Set;
 
-class FindUnpairedElement {
+class OddOccurrencesInArray {
 
     public int solution(int[] a) {
         Set<Integer> s = new HashSet<>();
@@ -23,8 +23,8 @@ class FindUnpairedElement {
     }
 
     public static void main(String[] args) {
-        FindUnpairedElement s = new FindUnpairedElement();
-        System.out.print(s.solution(new int[]{1,2,1,4,2,4,7,7,9,1,2,1,4,2,4,7,7,9,1,2,1,4,2,4,7,7,9,1,2,1,4,2,4,7,7,9,8}));
+        OddOccurrencesInArray s = new OddOccurrencesInArray();
+        System.out.print(s.solution(new int[]{1, 2, 1, 4, 2, 4, 7, 7, 9, 1, 2, 1, 4, 2, 4, 7, 7, 9, 1, 2, 1, 4, 2, 4, 7, 7, 9, 1, 2, 1, 4, 2, 4, 7, 7, 9, 8}));
     }
 
 }

@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.timecomplexity;
 
 /**
  * A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
@@ -70,6 +70,6 @@ public class TapeEquilibrium {
 
     public static void main(String[] args) {
         TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
-        System.out.println(tapeEquilibrium.solution(new int[]{3,1,2,4,3}));
+        System.out.println(tapeEquilibrium.solution(new int[]{3, 1, 2, 4, 3}));
     }
 }

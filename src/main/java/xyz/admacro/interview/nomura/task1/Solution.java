@@ -19,10 +19,10 @@ class Solution {
             }
         }
         if (root.l != null) {
-            vCount += traverse (root.l, numbers);
+            vCount += traverse(root.l, numbers);
         }
         if (root.r != null) {
-            vCount += traverse (root.r, numbers);
+            vCount += traverse(root.r, numbers);
         }
         numbers.pop();
         return vCount;

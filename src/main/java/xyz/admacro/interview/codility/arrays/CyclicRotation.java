@@ -1,6 +1,6 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.arrays;
 
-class ArrayRotation {
+class CyclicRotation {
 
     public int[] solution(int[] a, int times) {
         int len = a.length;
@@ -17,8 +17,8 @@ class ArrayRotation {
     }
 
     public static void main(String[] args) {
-        ArrayRotation s = new ArrayRotation();
-        for (int i: s.solution(new int[]{1,2,3,4,5,6,7,8,9,10}, 4)) {
+        CyclicRotation s = new CyclicRotation();
+        for (int i : s.solution(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 4)) {
             System.out.print(i + " ");
         }
     }
