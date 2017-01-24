@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.countingelements;
+package xyz.admacro.interview.codility.l4_countingelements;
 
 import java.util.HashSet;
 
@@ -27,7 +27,7 @@ import java.util.HashSet;
  * <p>
  * expected worst-case time complexity is O(N);
  * expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
- * Elements of input arrays can be modified.
+ * Elements of input l2_arrays can be modified.
  */
 public class MissingInteger {
 

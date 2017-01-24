@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.countingelements;
+package xyz.admacro.interview.codility.l4_countingelements;
 
 /**
  * You are given N counters, initially set to 0, and you have two possible operations on them:
@@ -60,7 +60,7 @@ package xyz.admacro.interview.codility.countingelements;
  * <p>
  * expected worst-case time complexity is O(N+M);
  * expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
- * Elements of input arrays can be modified.
+ * Elements of input l2_arrays can be modified.
  */
 public class MaxCounters {
     public int[] solution(int N, int[] A) {

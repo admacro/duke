@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.timecomplexity;
+package xyz.admacro.interview.codility.l3_timecomplexity;
 
 /**
  * A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
@@ -28,7 +28,7 @@ package xyz.admacro.interview.codility.timecomplexity;
  * <p>
  * expected worst-case time complexity is O(N);
  * expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
- * Elements of input arrays can be modified.
+ * Elements of input l2_arrays can be modified.
  */
 public class PermMissingElem {
 

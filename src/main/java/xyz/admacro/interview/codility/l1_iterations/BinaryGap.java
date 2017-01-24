@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.iterations;
+package xyz.admacro.interview.codility.l1_iterations;
 
 class BinaryGap {
 

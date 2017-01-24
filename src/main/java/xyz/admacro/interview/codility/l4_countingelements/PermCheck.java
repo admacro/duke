@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.countingelements;
+package xyz.admacro.interview.codility.l4_countingelements;
 
 import java.util.Arrays;
 

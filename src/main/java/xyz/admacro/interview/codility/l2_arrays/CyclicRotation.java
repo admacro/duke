@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.arrays;
+package xyz.admacro.interview.codility.l2_arrays;
 
 class CyclicRotation {
 

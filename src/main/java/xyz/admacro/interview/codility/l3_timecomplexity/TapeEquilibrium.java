@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility.timecomplexity;
+package xyz.admacro.interview.codility.l3_timecomplexity;
 
 /**
  * A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
@@ -45,7 +45,7 @@ package xyz.admacro.interview.codility.timecomplexity;
  * <p>
  * expected worst-case time complexity is O(N);
  * expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
- * Elements of input arrays can be modified.
+ * Elements of input l2_arrays can be modified.
  */
 public class TapeEquilibrium {
 
