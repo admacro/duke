@@ -1,4 +1,4 @@
-package xyz.admacro.interview.codility;
+package xyz.admacro.interview.codility.l3_timecomplexity;
 
 /**
  * A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
@@ -28,7 +28,7 @@ package xyz.admacro.interview.codility;
  * <p>
  * expected worst-case time complexity is O(N);
  * expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
- * Elements of input arrays can be modified.
+ * Elements of input l2_arrays can be modified.
  */
 public class PermMissingElem {
 
@@ -39,7 +39,7 @@ public class PermMissingElem {
             r += a[i] - i;
         }
         System.out.println(r);
-        for (int i = n; i <= 2*n; i++) {
+        for (int i = n; i <= 2 * n; i++) {
             if (r == i) {
                 return 2 * n - i + 1;
             }
@@ -49,6 +49,6 @@ public class PermMissingElem {
 
     public static void main(String[] args) {
         PermMissingElem permMissingElem = new PermMissingElem();
-        System.out.println(permMissingElem.solution(new int[]{1,2,4,5,3,6,8,7,10}));
+        System.out.println(permMissingElem.solution(new int[]{1, 2, 4, 5, 3, 6, 8, 7, 10}));
     }
 }

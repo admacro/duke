@@ -1,11 +1,5 @@
 package xyz.admacro.interview.nomura.task2;
 
-// you can also use imports, for example:
-// import java.util.*;
-
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +9,7 @@ class Solution {
         List<Pos> hits = getHits(T);
         int sunk = 0;
         int hit = 0;
-        for (Ship ship: ships) {
+        for (Ship ship : ships) {
             int blood = checkBlood(ship, hits);
             if (blood == 0) {
                 sunk++;
@@ -29,7 +23,7 @@ class Solution {
     public int checkBlood(Ship ship, List<Pos> hits) {
         int blood = ship.pos.size();
         if (ship != null && ship.pos != null) {
-            for (Pos shipPos: ship.pos) {
+            for (Pos shipPos : ship.pos) {
                 if (hits.contains(shipPos)) {
                     blood--;
                 }
@@ -42,7 +36,7 @@ class Solution {
         List<Ship> shipList = new ArrayList<>();
         String[] shipsPos = s.split(",");
         if (shipsPos.length > 0) {
-            for (String shipPos: shipsPos) {
+            for (String shipPos : shipsPos) {
                 shipList.add(populateShip(shipPos));
             }
         }
@@ -73,7 +67,7 @@ class Solution {
     public List<Pos> getHits(String s) {
         List<Pos> posList = new ArrayList<>();
         String[] hits = s.split(" ");
-        for (String hit: hits) {
+        for (String hit : hits) {
             int x = Integer.parseInt(hit.substring(0, 1), 10);
             int y = getPos(hit.substring(1));
             posList.add(new Pos(x, y));

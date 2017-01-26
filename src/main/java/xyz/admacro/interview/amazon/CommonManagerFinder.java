@@ -59,9 +59,10 @@ public class CommonManagerFinder {
 
     /**
      * This finds the path from CEO to the target employee
+     *
      * @param parent root node to start the traverse from
      * @param target the employee to locate
-     * @param path A list to hold the employees while traveling through the nodes
+     * @param path   A list to hold the employees while traveling through the nodes
      * @return
      */
     public static boolean findPath(Employee parent, Employee target, List<Employee> path) {

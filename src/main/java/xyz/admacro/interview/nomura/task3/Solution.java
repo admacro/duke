@@ -1,11 +1,5 @@
 package xyz.admacro.interview.nomura.task3;
 
-// you can also use imports, for example:
-// import java.util.*;
-
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
-
 class Solution {
     public int solution(String S) {
         if (S.length() > 0) {
@@ -26,7 +20,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.solution("")); // 28 7
+        System.out.println(s.solution("")); // 0
         System.out.println(s.solution("011100")); // 28 7
         System.out.println(s.solution("100011")); // 35 8
         System.out.println(s.solution("11010101")); // 213 12
