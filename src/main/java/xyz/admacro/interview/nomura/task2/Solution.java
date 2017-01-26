@@ -56,10 +56,11 @@ class Solution {
         if (ship.length == 2) {
             String start = ship[0];
             String end = ship[1];
-            int rx = Integer.parseInt(start.substring(0, 1), 10);
-            int ry = getPos(start.substring(1));
-            int cx = Integer.parseInt(end.substring(0, 1), 10);
-            int cy = getPos(end.substring(1));
+            int yIdx = start.length() - 1;
+            int rx = Integer.parseInt(start.substring(0, yIdx), 10);
+            int ry = getPos(start.substring(yIdx));
+            int cx = Integer.parseInt(end.substring(0, yIdx), 10);
+            int cy = getPos(end.substring(yIdx));
             for (int i = rx; i <= cx; i++) {
                 for (int j = ry; j <= cy; j++) {
                     posList.add(new Pos(i, j));
@@ -137,7 +138,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(s.solution(0, "1B 2B,1C 1D,2C 3D,4B 4D", "1B 2A 2B 2C 3B 3C 4B"));
+        System.out.println(s.solution(0, "12B 22B,1C 1D,2C 3D,4B 4D", "12B 2A 22B 2C 3B 3C 4B"));
     }
 
 }
