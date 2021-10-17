@@ -1,2 +1,7 @@
 .DS_Store
 target
+
+# eclipse config files for java projects
+.project
+.classpath
+.settings
