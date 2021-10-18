@@ -18,9 +18,9 @@ public class Java8LambdaExpressions {
         names.forEach((String s) -> System.out.println(s));
 
         // multiline
-        Map<Integer, Integer> map = Map.of(1,2,3,4);
-        map.forEach((Integer k, Integer v) -> {
-                System.out.println(k + " => " + v + "^2 = " + Math.pow(v, 2));
+        Map<Integer, String> map = Map.of(1,"James",2,"Russell");
+        map.forEach((Integer k, String v) -> { // types can be ommitted, aka. (k, v)
+                System.out.println(k + " => " + v);
             });
 
         // with closure
